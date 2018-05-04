@@ -1,7 +1,8 @@
-package gameclient.entities;
+package asteroids.entities;
 
-import gameclient.graphics.*;
-import gameclient.maths.*;
+import asteroids.maths.Vector3f;
+import asteroids.graphics.Texture;
+import asteroids.graphics.VertexArray;
 
 public abstract class Entity {
     

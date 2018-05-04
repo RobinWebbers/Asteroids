@@ -1,10 +1,10 @@
-package gameclient;
+package asteroids;
 
-import gameclient.entities.*;
-import gameclient.graphics.*;
-import gameclient.writing.*;
-import gameclient.utils.*;
-import gameclient.input.*;
+import asteroids.writing.Writing;
+import asteroids.utils.ImageBuffer;
+import asteroids.input.Input;
+import asteroids.entities.Background;
+import asteroids.entities.Player;
 
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
@@ -18,7 +18,7 @@ import static org.lwjgl.system.MemoryUtil.*;
 
 
 
-public class GameClient implements Runnable {
+public class Asteroids implements Runnable {
     
     Player spaceship;
     Background background;
@@ -132,6 +132,6 @@ public class GameClient implements Runnable {
     }
     
     public static void main(String[] args) {
-        new GameClient().start();
+        new Asteroids().start();
     }
 }

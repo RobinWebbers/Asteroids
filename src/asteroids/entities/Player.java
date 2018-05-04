@@ -1,10 +1,12 @@
-package gameclient.entities;
+package asteroids.entities;
 
-import gameclient.maths.Vector3f;
-import gameclient.maths.Matrix4f;
-import gameclient.graphics.*;
-import gameclient.input.*;
-import gameclient.Timer;
+import asteroids.input.Input;
+import asteroids.graphics.Texture;
+import asteroids.graphics.Shader;
+import asteroids.graphics.VertexArray;
+import asteroids.maths.Vector3f;
+import asteroids.maths.Matrix4f;
+import asteroids.Timer;
 
 import static org.lwjgl.glfw.GLFW.*;
 

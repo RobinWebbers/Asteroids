@@ -1,6 +1,6 @@
-package gameclient.graphics;
+package asteroids.graphics;
 
-import gameclient.utils.*;
+import asteroids.utils.BufferUtils;
 import java.awt.image.*;
 import java.io.*;
 import javax.imageio.*;

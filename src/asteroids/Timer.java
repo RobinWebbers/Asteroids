@@ -1,7 +1,7 @@
-package gameclient;
+package asteroids;
 
-import gameclient.writing.*;
-import gameclient.maths.*;
+import asteroids.writing.Writing;
+import asteroids.maths.Vector3f;
 
 
 public class Timer {
@@ -56,6 +56,7 @@ public class Timer {
             fpsTimer += SECOND_IN_NANOS;
             fps = frames;
             frames = 0;
+            System.out.println(fps); 
         }
         return result;
     }
@@ -66,6 +67,6 @@ public class Timer {
     
     public static void displayFps(){
         Writing.drawText(fps + " fps", new Vector3f(16.0f, 9.0f, -1.0f), 0.5f, Writing.TOP_RIGHT);
-        System.out.println(fps); 
+        //System.out.println(fps); 
     }
 }

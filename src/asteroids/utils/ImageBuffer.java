@@ -1,4 +1,4 @@
-package gameclient.utils;
+package asteroids.utils;
 
 import java.nio.*;
 import org.lwjgl.stb.*;
@@ -36,7 +36,7 @@ public class ImageBuffer {
 
             image = STBImage.stbi_load(path, w, h, comp, 4);
             if (image == null) {
-                // throw new resource_error("Could not load image resources.");
+                throw new RuntimeException("Could not load image resources.");
             }
             width = w.get();
             heigh = h.get();

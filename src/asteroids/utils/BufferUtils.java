@@ -1,4 +1,4 @@
-package gameclient.utils;
+package asteroids.utils;
 
 import java.nio.*;
 

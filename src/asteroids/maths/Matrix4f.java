@@ -1,7 +1,7 @@
 
-package gameclient.maths;
+package asteroids.maths;
 
-import gameclient.utils.*;
+import asteroids.utils.BufferUtils;
 import java.nio.*;
 
 public class Matrix4f {

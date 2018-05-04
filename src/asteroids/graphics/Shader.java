@@ -1,8 +1,8 @@
-package gameclient.graphics;
+package asteroids.graphics;
 
-import gameclient.maths.Vector3f;
-import gameclient.maths.Matrix4f;
-import gameclient.utils.*;
+import asteroids.utils.ShaderUtils;
+import asteroids.maths.Vector3f;
+import asteroids.maths.Matrix4f;
 import java.util.*;
 import static org.lwjgl.opengl.GL20.*;
 

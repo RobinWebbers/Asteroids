@@ -1,4 +1,4 @@
-package gameclient.input;
+package asteroids.input;
 
 import org.lwjgl.glfw.*;
 import static org.lwjgl.glfw.GLFW.*;

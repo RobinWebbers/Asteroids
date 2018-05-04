@@ -1,4 +1,4 @@
-package gameclient.maths;
+package asteroids.maths;
 
 public class Vector2f {
     

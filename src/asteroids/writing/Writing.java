@@ -1,7 +1,10 @@
-package gameclient.writing;
+package asteroids.writing;
 
-import gameclient.graphics.*;
-import gameclient.maths.*;
+import asteroids.maths.Vector3f;
+import asteroids.maths.Matrix4f;
+import asteroids.graphics.Texture;
+import asteroids.graphics.Shader;
+import asteroids.graphics.VertexArray;
 
 public class Writing {
     

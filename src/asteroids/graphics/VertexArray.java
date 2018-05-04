@@ -1,6 +1,6 @@
-package gameclient.graphics;
+package asteroids.graphics;
 
-import gameclient.utils.*;
+import asteroids.utils.BufferUtils;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL15.*;
 import static org.lwjgl.opengl.GL20.*;
